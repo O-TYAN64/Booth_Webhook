@@ -1,0 +1,13 @@
+name = "booth-watcher"
+type = "javascript"
+
+[vars]
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/xxx/yyy"
+INCLUDE_TAGS = "Live2D VRChat"
+EXCLUDE_TAGS = "R-18 NSFW"
+
+[[triggers]]
+cron = "0 0 * * *"  # 毎日9:00 JST
+[[kv_namespaces]]
+binding = "NOTIFIED_KV"
+id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
