@@ -1,4 +1,5 @@
 name = "booth-watcher"
+main = "index.js"
 type = "javascript"
 
 [vars]
