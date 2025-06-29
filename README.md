@@ -18,13 +18,3 @@ Cloudflare Workers 上で動作し、毎晩21時（JST）に最大3件の新着�
 | 🔁 重複防止 | KVストレージで通知済み商品を記録し、再通知しない |
 | ⏰ 定期実行 | 毎日21:00（JST）に自動でDiscordに通知 |
 | 🎲 通知件数 | 通知数は毎回ランダムで2〜3件（新着から選出） |
-
----
-
-## 🚀 使用方法
-
-### 1. Cloudflare Workers 環境準備
-
-```bash
-npm install -g wrangler
-wrangler login
