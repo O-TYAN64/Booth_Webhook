@@ -1,6 +1,6 @@
 name = "booth-watcher"
 main = "index.js"
-type = "javascript"
+compatibility_date = "2025-06-29"
 
 [vars]
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/xxx/yyy"
