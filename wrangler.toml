@@ -3,12 +3,9 @@ main = "index.js"
 compatibility_date = "2025-06-29"
 
 [vars]
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/xxx/yyy"
+DISCORD_WEBHOOK_URL = "https://ptb.discord.com/api/webhooks/1389766480589095074/zAFGwhiOAB2mpQ95-fyp3pWM1iMDWAg7s5jns_olHff6ZliWBLCcMLkDfkKLCBdrk0cO"
 INCLUDE_TAGS = "Live2D VRChat"
 EXCLUDE_TAGS = "R-18 NSFW"
 
 [[triggers]]
 cron = "0 0 * * *"  # 毎日9:00 JST
-[[kv_namespaces]]
-binding = "NOTIFIED_KV"
-id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
